@@ -1,0 +1,72 @@
+<div class="employee-card-wrapper">
+    <div class="row item-center">
+        <div class="col-xl-3 text-align-center">
+            <img class="employee-profile-pic" src="../../../assets/img/{{getEmployee.profile}}" alt="">
+        </div>
+        <div class="col-xl-9">
+            <div class="employee-tool-bar">
+                <div class="employee-tool-bar-row">
+                    <div class="employee-name-wrapper">
+                        <div class="employee-name">
+                            <h4>{{getEmployee.firstname | titlecase}} {{getEmployee.lastname | titlecase}}</h4>
+                        </div>
+                    </div>    
+                    <div class="button-group-wrapper">
+                        <div class="button-group">
+                            <button class="employee-edit" (click)="editEmployeeClick()">Edit</button>
+                            <button class="employee-delete" (click)="deleteEmployeeClick()">Delete</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row employee-info-table-wrapper">
+                    <div class="col-xl-6 employee-info-table-personal">
+                        <table class="employee-table">
+                            <thead>
+                                <tr>
+                                    <td colspan="2">Personal Details</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Birthdate</td>
+                                    <td>{{getEmployee.birthday}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Gender</td>
+                                    <td>{{getEmployee.gender == 'm' ? 'Male' : 'Female'}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Education</td>
+                                    <td>{{getEmployee.education | titlecase}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-xl-6 employee-info-table-Job">
+                        <table class="employee-table">
+                            <thead>
+                                <tr>
+                                    <td colspan="2">Job Details</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Company</td>
+                                    <td>{{getEmployee.company | titlecase}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Experience</td>
+                                    <td>{{getEmployee.jobExperience}} Yrs</td>
+                                </tr>
+                                <tr>
+                                    <td>Salary</td>
+                                    <td>{{getEmployee.salary}} LPA</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

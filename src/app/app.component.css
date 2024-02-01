@@ -1,0 +1,8 @@
+.employee-wrap {
+    width: 75%;
+    margin: 40px auto;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

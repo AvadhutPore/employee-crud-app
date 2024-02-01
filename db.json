@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": "59b9",
+      "firstname": "sadas",
+      "lastname": "sda ",
+      "birthday": "2024-02-29",
+      "gender": "m",
+      "education": "12th pass",
+      "company": "sad",
+      "jobExperience": 12,
+      "salary": 5
+    },
+    {
+      "id": "6009",
+      "firstname": "sadas",
+      "lastname": "sda ",
+      "birthday": "2024-02-29",
+      "gender": "m",
+      "education": "12th pass",
+      "company": "sad",
+      "jobExperience": 12,
+      "salary": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

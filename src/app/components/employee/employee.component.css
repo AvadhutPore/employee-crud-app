@@ -1,0 +1,79 @@
+.employee-profile-pic {
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.employee-tool-bar-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.employee-name-wrapper {
+    flex: 1 1 auto;
+    text-align: center;
+}
+.employee-name {
+    width: 50%;
+    margin: auto;
+    border: 1px solid lightblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.employee-name-wrapper h4{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.button-group {
+    text-align: right;
+}
+.employee-edit {
+    padding: 3px 13px;
+    border: none;
+    background-color: #fff;
+    border:1px solid #328631;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #000;
+    margin: 0px 0.5px;
+}
+.employee-edit:hover {
+    background-color: #328631;
+    color: #fff;
+}
+.employee-delete {
+    padding: 3px 13px;
+    border: none;
+    background-color: #fff;
+    border:1px solid #dc3545;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #000;
+    margin: 0px 0.5px;
+}
+.employee-delete:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.employee-table {
+    width: 100%;
+}
+
+.employee-table thead {
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+}
+.employee-table tbody tr {
+    border-bottom: 1px solid #0000001a;
+}
+.employee-table tbody tr:hover {
+    background-color: #d3d3d347;
+}
+.employee-table tbody td {
+    padding-top: 6px;
+}
